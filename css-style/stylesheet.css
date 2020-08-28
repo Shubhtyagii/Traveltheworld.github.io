@@ -1,0 +1,602 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{ 
+    font-size:62.5%;
+}
+
+
+body{font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+}
+
+/*#############..html element styling..#################*/
+.container{
+    max-width: 1030px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+ul li{
+    list-style-type:none;
+    /* padding-top: 5.3rem; */
+    
+}
+
+p,li{
+    font-size: 1.6rem;
+    margin-top: 0.7rem;
+    letter-spacing: 0.15em;
+}
+
+
+/* ##############################...header..################### */
+
+.header{
+    
+     background: linear-gradient(rgba(134, 132, 132, 0.5), rgba(0,0,0,0.5)),url("../images/header-image.jpg"); 
+     position: relative;
+     height:95vh;
+     background-position: center;
+     background-size:cover;
+     background-repeat: no-repeat;
+}
+
+
+       /* #####################..utility_classes################################ */
+       .lg-heading{
+         font-size: 3.5rem;
+       }
+       .md-heading{
+           font-size: 2rem;
+           
+
+       }
+
+       .text-red{
+           color: #e63946;
+       }
+       .text-light{
+           color: #f4f4f4;
+       }
+       .text-black{
+           color: #333333;
+       }
+       .text-gray{
+           color: #555555;
+       }
+       .bg-dark{
+           background-color: #263238;
+       }
+      /* ######################### NAVBAR SECTION ######################## */
+
+
+      .navbar{
+       line-height: 1.55;
+       position: fixed;
+       width: 100%;
+      }
+ .navbar a{
+        font-size: 1.6rem;
+        text-decoration: none;
+    }
+
+.navbar a:link, .navbar a:visited{
+  color: #f4f4f4;
+}
+.navbar a:hover{
+    border-bottom:1px solid white;
+   
+    padding-bottom: 0.3rem;
+}
+
+.navbar .nav-iteams{
+    float: right;
+    margin-top:0.7em;
+
+}
+.navbar .logo{
+    float: left;
+    color: #fff;
+    
+}
+.nav-iteams .nav-iteam{
+    display:inline-block ;   
+    
+    text-transform: uppercase;
+    padding:0.3em 0.8em 0em 0.8em ;
+}
+
+
+h1,h2,h3{
+    margin-bottom: 0.5em;
+    letter-spacing: 0.15em;
+    font-weight: 500;
+}
+.navbar::after{
+    content:"";
+    display:block;
+    clear: both;
+}
+
+/* ######################## header content ###################### */
+
+.header .hcontent{
+
+    position: absolute;
+    background: linear-gradient(rgba(0,0,0,0.0.07),rgba(0,0,0,0.07));
+    text-align: center;
+    /* border: 2px solid white; */
+    /* border-radius: 5em; */
+     top: 50%;
+     left: 50%; 
+    transform: translate(-50%,-40%);
+}
+.header .hcontent h1{
+    text-transform: uppercase;
+    font-weight:700;
+    margin-bottom: 0.3em;
+}
+.header .hcontent p{
+    margin-bottom: 0.7em;
+    text-transform: uppercase;
+    
+}
+.btn{
+    border: 1px solid white;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* background-color: #f4f4f4; */
+    padding: 0.5em 1.5em;
+    margin: 0.5em;
+    display: inline-block;
+    border-radius: 10em;
+}
+.btn-primary{
+    background: #f4f4f4;
+}
+
+.btn-secondary{
+       
+    border:2px solid #e63946;
+    border-radius: 1.5em;
+    padding: 1em 1.5em;
+    
+}
+
+ /* ########################### SHOWCASE CONTENT  ######################  */
+  
+   
+  .showcase{
+      /* border: 1px solid red; */
+      background: #ddd;
+      padding: 10em 0;
+  }
+  
+  .row{
+      box-shadow:0em 0em black 2px;
+      height: 350px;
+  }
+
+  .row1{
+      
+      margin-bottom: 10em;
+  }
+     
+
+   
+
+  .row2{
+      
+  }
+
+  /* .img-box{border:2px solid yellow ;}
+  .text-box{border: 2px solid blueviolet;} */
+
+
+
+ .row1 .img-box , .row2 .text-box{
+     float: left;
+     width: 50%;
+     height: 100%;
+ }
+ .row2 .img-box , .row1 .text-box{
+     float: right;
+     width: 50%;
+     height: 100%;
+ }
+
+ .row .img-box img{
+     width:100%;
+     height: 100%;
+     object-fit: cover;
+
+ }
+ 
+ .row .text-box{ 
+     padding:3em;
+     background:#fff;
+ }
+ .row h2{
+     text-transform: uppercase;
+     font-weight: 500;
+ }
+ /* .row p{} */
+  
+  .row a:hover{
+      background: #f7b3b970;
+  }
+  
+  .row{
+    box-shadow: 0.5em 0.5em 2em 0px rgba(0, 0, 0, 0.420);
+  }
+
+  .row::after{
+      content:"";
+      display: inline-block;
+      clear: both;
+  }
+
+/* ############################ Feature section ########################## */
+ .features{
+     padding: 10rem 0;
+  } 
+
+
+ .features .feature{
+     /* border: 2px solid red; */
+     box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.52);
+     height: 320px;
+      /* margin: 10em 0; */
+     
+ }
+  .feature .advt{
+      background: #333333;
+      color: #f4f4f4;
+      width:33.3333%;
+      height: 100%;
+      float: left;
+      text-align: center;
+      padding: 2em;
+  }
+  .feature .price{
+      background:#f30909d0;
+      color: #f4f4f4;
+      width: 33.3333%;
+      height: 100%;
+      float: left;
+      padding:2em;
+      text-align: center;
+  }
+  .feature .experience{
+      background: #333333;
+      color: #f4f4f4;
+      height: 100%;
+      width: 33.3333%;
+      float: left;
+      padding: 2em;
+      text-align: center;
+  }
+
+  .features .feature h2{
+      text-decoration: underline;
+      /* border-bottom: 2px solid #f4f4f4; */
+  }  
+
+
+/* .fas .fa-route{
+    size: 7px;
+} */
+
+   .feature::after{
+       content: "";
+       /* display: inline-block; */
+       clear: both;
+   }
+   
+/* ########################## footer section ######################## */
+
+ .footer{
+     background:#263238;
+     color:white;
+     text-align: center;
+     
+ }
+ .footer p{
+     margin-top: 0;
+     letter-spacing: 0.5rem;
+     text-align: center;
+ }
+
+.social-media-links i{
+    margin:1.5rem ;
+    cursor: pointer;
+}
+
+/* ################################################################################################################  ABOUT PAGE STYLING START #################################### */
+.about{
+    padding: 9rem 3rem 3rem 3rem;
+    
+}
+
+.aboutp2::after{
+content: "";
+display: block;
+border: 3px solid #e63946;
+margin-bottom: 1em;
+
+}
+           /* ################ wrapper work ################ */
+.wrapper{
+ margin: 2em;
+}
+
+.wrapper .left{
+    float: left;
+    width: 50%;
+}
+.wrapper .right{
+    float: right;
+    width: 50%;
+}
+
+
+.wrapper ul li{
+    text-align: center;
+    /* color: #555555; */
+    font-weight: 500;
+
+}
+.about .wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.wrapper ul li::before{
+    content: "\2713";
+    padding-right: 0.6em;
+    font-weight: bold;
+    color: #e63946;
+
+}
+
+/* ####################### count work ###################### */
+
+  .count{
+      /* border: 2px solid red; */
+      margin-top: 2rem;
+  }
+  .count .count-iteam{
+      width: 25%;
+      text-align: center;
+  }
+
+ .count .count-itm1{
+     float: left;
+ }
+ .count .count-itm2{
+     float: left;
+ }
+ .count .count-itm3{
+     float: left;
+ }
+ .count .count-itm4{
+     float: left;
+     
+ }
+
+ .count span{
+     color: #e63946;
+     font-weight: bold;
+    
+ } 
+ .count p{
+     font-weight: bold;
+     margin-top: -0.5rem;
+ }
+
+.count::after{
+    content: "";
+    display: block;
+    clear:both;
+}
+
+/* ############## invitation work ############ */
+
+
+.invite{
+    /* border: 3px solid black; */
+    background: linear-gradient(25deg,#d64c7f,#ee4758 40%);
+    color: #f4f4f4;
+    margin: 2.5rem;
+    height: 7rem;
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.525);
+}
+
+
+.rightnow{
+    width: 60%;
+    /* border: 2px solid #fff; */
+    float: left;
+    padding: 1rem;
+}
+.invite .rightnow .ctap{
+    /* border:4px solid black; */
+    /* font-weight: bold; */
+    font-size: 1.9rem;
+    padding-left: 1.5rem;
+    /* padding: auto 0; */
+
+    
+}
+
+.contactd {
+     /* border: 3px solid green; */
+     float: right;
+     width: 40%;
+     height: 100%;
+     
+}
+
+.contactd .spanan{
+    border: 4px solid #fff;
+    border-radius: 1.5rem;
+    text-decoration: none;
+    display:block;
+    font-size: 2rem;
+    padding:0.4rem;
+    letter-spacing: 0.4rem;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    margin: 1rem 5rem;
+}
+
+
+ 
+.invite::after{
+ content: "";
+ display: block;
+ clear: both;
+}
+
+
+ /* ####################### CONTACT PAGE STYLING ################################### */
+  /* .fixed{
+      position: fixed;
+      width: 100%;
+      top: 0;
+  } */
+.contactwith{
+    padding: 9rem 3rem 3rem 3rem;
+    /* border: 4px dotted black; */
+    background: #f9f9f9;
+}
+
+.addressed{
+    /* border: 2px solid red; */
+    background: #f4f4f4;
+    float: left;
+    width: 49%;
+}
+
+.addform{
+    /* border: 2px solid green; */
+    background: #f4f4f4;
+    float: right;
+    width: 49%;
+}
+
+
+
+.helpboth{
+    padding:1em;
+    height: 672px;
+
+}
+
+.contactwith .addressed img{
+    max-width: 98%;
+    min-height: 43%;
+    object-fit: cover;
+    object-position: right;
+}
+
+
+
+.address-points h2{
+  display: inline-block;
+  margin-left: 1rem;
+  margin-bottom: 0;
+  text-transform:uppercase;
+  cursor: pointer;
+}
+ .addressed .address-points i{
+    display: inline-block;
+    cursor: pointer;
+    } 
+
+.address-points{
+margin-bottom: 2rem;
+}
+
+.addform input:hover{
+    padding: 0.3em;
+    color: #e63946;
+    cursor: pointer;
+
+}            
+
+
+.contactwith::after{
+    content:"";
+    display: block;
+    clear:both;
+}
+  /* ###### form work in it ####### */
+   
+  .addform h1::after{
+      content:'';
+      display: block;
+      border: 3px solid #e63946;
+  }
+  
+  .addform label{
+      display: block;
+  }
+  .addform input{
+    display: block;
+    width: 97.5%;
+    margin-bottom: 1rem;
+}
+.addform textarea{
+ margin-bottom:1.5rem;
+ max-width: 98%;
+ min-height:23% ;
+}
+
+  .addform label::after{
+      content: '*';
+      color: #e63946;
+      display:inline;
+  }
+
+  .contactwith .addform .subtn{
+      width:40%;
+      margin: 0 auto;
+      font-weight: bold;
+      padding: 0.6em 3em;
+      background:#e63946;
+      color: #fff;
+      border: none;
+      font-size: 1.6em;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      outline: none;
+      text-align: center;
+      box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.552);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
