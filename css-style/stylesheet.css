@@ -12,7 +12,8 @@ html{
 
 
 body{font-family: 'Montserrat', sans-serif;
-    line-height: 1.7;
+   
+   line-height: 1.7;
 }
 
 /*#############..html element styling..#################*/
@@ -378,7 +379,6 @@ margin-bottom: 1em;
       width: 25%;
       text-align: center;
   }
-
  .count .count-itm1{
      float: left;
  }
@@ -585,6 +585,222 @@ margin-bottom: 2rem;
       text-align: center;
       box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.552);
   }
+
+
+
+
+/* #################################################################################################################################### MEDIA QUERIES ############################################ */
+  @media (max-width:500px){
+  html{
+    font-size:50%;      
+  }
+  
+    .navbar .logo, .navbar .nav-iteams{
+      float: none;
+      width:100% ;
+      text-align: center;
+  } 
+  .navbar .nav-iteams{
+      /* padding-top: 0.7rem;   */
+       padding-bottom: 1rem;}
+ 
+ .row{
+     height: auto;
+     width: 100%;
+ }
+  .row .img-box ,
+  .row .text-box{
+    float: none;
+    width: 100%;
+    text-align: center;
+    /* height: 100%; */
+}
+
+
+
+.features .feature{
+    /* height: 100%; */
+    box-shadow: none;
+}
+
+.feature .boxx{
+     float: none;
+     width: 100%;
+     /* height: 50%; */
+     text-align: center;
+     box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.52);
+    
+ }
+ .feature .advt, .feature .price{
+     margin-bottom: 5rem;
+ }
+
+  .shows .row .text-box a{
+      margin-top: 1.5rem;
+  } 
+
+/* ###################### about ##################### */
+.wrapper{
+    height: auto;
+    margin: none;
+}
+.wrapper .left, .wrapper .right{
+    float: none;
+    width: 100%;
+    display: block;
+    text-align: left;
+    line-height: 5rem;
+    word-spacing: 0.5rem;
+
+}
+
+
+.invite{
+    height: auto;
+    border-radius: 10px;
+    padding-bottom: 0.5rem;
+    
+}
+  .invite .rightnow,
+  .invite .contactd{
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+ /* .about .invite .contactd{
+    float: none;
+    display: block;
+    width: 100%;
+     margin-bottom: 10rem;
+      background: red; 
+     color: black;
+}  */
+
+ /* ########################## contact page quaries ######################################## */
+ .contactwith{
+
+ }
+
+ .contactwith .helpboth{
+     float: none;
+     width: 100%;
+     height: auto;
+     margin: 2rem 0rem 4rem 0rem;
+ }
+ }
+
+ /* ####################### queries for middle width 501-768 ################################# */
+
+  @media(min-width:501px) and (max-width:768px){
+ html{
+    font-size:56.25%;      
+  }
+  
+    .navbar .logo, .navbar .nav-iteams{
+      float: none;
+      width:100% ;
+      text-align: center;
+  } 
+  .navbar .nav-iteams{
+      /* padding-top: 0.7rem;   */
+       padding-bottom: 1rem;}
+ 
+ .row{
+     height: auto;
+     width: 100%;
+ }
+  .row .img-box ,
+  .row .text-box{
+    float: none;
+    width: 100%;
+    text-align: center;
+    /* height: 100%; */
+}
+
+
+
+.features .feature{
+    /* height: 100%; */
+    box-shadow: none;
+}
+
+.feature .boxx{
+     float: none;
+     width: 100%;
+     /* height: 50%; */
+     text-align: center;
+     box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.52);
+    
+ }
+ .feature .advt, .feature .price{
+     margin-bottom: 5rem;
+ }
+
+  .shows .row .text-box a{
+      margin-top: 1.5rem;
+  } 
+
+/* ###################### about ##################### */
+.wrapper{
+    height: auto;
+    margin: none;
+}
+.wrapper .left, .wrapper .right{
+    float: none;
+    width: 100%;
+    display: block;
+    text-align: left;
+    line-height: 5rem;
+    word-spacing: 0.5rem;
+
+}
+
+
+.invite{
+    height: auto;
+    border-radius: 10px;
+    padding-bottom: 0.5rem;
+    
+}
+  .invite .rightnow,
+  .invite .contactd{
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+ /* .about .invite .contactd{
+    float: none;
+    display: block;
+    width: 100%;
+     margin-bottom: 10rem;
+      background: red; 
+     color: black;
+}  */
+
+ /* ########################## contact page quaries ######################################## */
+ .contactwith{
+
+ }
+
+ .contactwith .helpboth{
+     float: none;
+     width: 100%;
+     height: auto;
+     margin: 2rem 0rem 4rem 0rem;
+ }
+ }
+
+
+ /* ##################### media quaries top width 769-1200 0r max ########################### */
+
+@media(min-width:769px) and (max-width:1250px){
+    html{
+        font-size: 56.25%;
+    }
+}
+
 
 
 
