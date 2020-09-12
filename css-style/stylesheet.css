@@ -417,7 +417,7 @@ margin-bottom: 1em;
     background: linear-gradient(25deg,#d64c7f,#ee4758 40%);
     color: #f4f4f4;
     margin: 4.5rem;
-    height: 3rem;
+/*     height: 3rem; */
 
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.525);
 }
