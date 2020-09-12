@@ -556,7 +556,7 @@ margin-bottom: 2rem;
   }
   .addform input{
     display: block;
-    width: 70%;
+    width:100%;
     margin-bottom: 1rem;
 }
 .addform textarea{
