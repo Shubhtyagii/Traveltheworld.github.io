@@ -616,7 +616,19 @@ margin-bottom: 2rem;
     text-align: center;
     /* height: 100%; */
 }
+  
 
+.shows .row1::after{
+   Content: "";
+   Display:block;
+   Clear:both;
+   }
+
+ .shows .row2::after{
+   Content: "";
+   Display:block;
+   Clear:both;
+   }
 
 
 .features .feature{
