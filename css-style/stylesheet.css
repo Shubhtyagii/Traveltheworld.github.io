@@ -733,6 +733,17 @@ margin-bottom: 2rem;
     /* height: 100%; */
 }
 
+.shows .row1::after{
+   Content: "";
+   Display:block;
+   Clear:both;
+   }
+
+ .shows .row2::after{
+   Content: "";
+   Display:block;
+   Clear:both;
+   }
 
 
 .features .feature{
