@@ -654,6 +654,11 @@ margin-bottom: 2rem;
     /* height: 100%; */
 }
   
+ .row .img-box::after{
+  Content:"";
+  Display:block;
+  Clear:both;}
+  
 
 .shows .row1::after{
    Content: "";
