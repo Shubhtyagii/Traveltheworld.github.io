@@ -323,7 +323,7 @@ h1,h2,h3{
 
 /* ################################################################################################################  ABOUT PAGE STYLING START #################################### */
 .about{
-    padding: 9rem 3rem 3rem 3rem;
+    padding: 5rem 3rem 3rem 3rem;
     
 }
 
@@ -478,7 +478,7 @@ margin-bottom: 1em;
       top: 0;
   } */
 .contactwith{
-    padding: 9rem 3rem 3rem 3rem;
+    padding: 6rem 3rem 3rem 3rem;
     /* border: 4px dotted black; */
     background: #f9f9f9;
 }
@@ -682,7 +682,7 @@ margin-bottom: 2rem;
     text-align: center;
 }
 /*       .invite .contactd{ */
-      margin-top:0rem;}
+/*       margin-top:0rem;} */
  /* .about .invite .contactd{
     float: none;
     display: block;
@@ -694,7 +694,7 @@ margin-bottom: 2rem;
 
  /* ########################## contact page quaries ######################################## */
  .contactwith{
-
+  padding:3rem;
  }
 
  .contactwith .helpboth{
