@@ -41,7 +41,7 @@ p,li{
 
 .header{
     
-     background: linear-gradient(rgba(134, 132, 132, 0.5), rgba(0,0,0,0.5)),url("../images/header-image.jpg"); 
+     background: linear-gradient(rgba(134, 132, 132,0.2), rgba(0,0,0,.01)),url("../images/travel-image3.jpg"); 
      position: relative;
      height:95vh;
      background-position: center;
@@ -72,9 +72,14 @@ p,li{
        .text-gray{
            color: #555555;
        }
-       .bg-dark{
-           background-color:  #263238c4;
+       .text-bold{
+           font-weight: 500;
        }
+       
+       .bg-dark{
+           background-color: #263238d8;
+       }
+       
       /* ######################### NAVBAR SECTION ######################## */
 
 
@@ -88,9 +93,18 @@ p,li{
         text-decoration: none;
     }
 
-.navbar a:link, .navbar a:visited{
+    
+
+
+/* .navbar a:link, .navbar a:visited{
   color: #f4f4f4;
 }
+
+.photo a:link, .navbar a:visited{
+    color: #555555;
+  } */
+
+
 .navbar a:hover{
     border-bottom:1px solid white;
    
@@ -323,7 +337,7 @@ h1,h2,h3{
 
 /* ################################################################################################################  ABOUT PAGE STYLING START #################################### */
 .about{
-    padding: 5rem 3rem 3rem 3rem;
+    padding: 4rem 3rem 3rem 3rem;
     
 }
 
@@ -478,7 +492,7 @@ margin-bottom: 1em;
       top: 0;
   } */
 .contactwith{
-    padding: 6rem 3rem 3rem 3rem;
+    padding: 5rem 3rem 3rem 3rem;
     /* border: 4px dotted black; */
     background: #f9f9f9;
 }
@@ -488,6 +502,7 @@ margin-bottom: 1em;
     background: #f4f4f4;
     float: left;
     width: 49%;
+    padding:2rem 3rem 1rem 3rem ;
 }
 
 .addform{
@@ -495,12 +510,13 @@ margin-bottom: 1em;
     background: #f4f4f4;
     float: right;
     width: 49%;
+    padding: 1rem 4rem;
 }
 
 
 
 .helpboth{
-    padding:1em;
+    
     height: 672px;
 
 }
@@ -529,22 +545,32 @@ margin-bottom: 1em;
 .address-points{
 margin-bottom: 2rem;
 }
-
-.addform input:hover{
-    padding: 0.3em;
-    color: #e63946;
-    cursor: pointer;
-
-}            
-
-
 .contactwith::after{
     content:"";
     display: block;
     clear:both;
 }
-  /* ###### form work in it ####### */
-   
+
+/* .contactwith .addressed::after{
+    content: "";
+    display: block;
+    clear: both;
+} */
+
+/* ###### form work in it ####### */
+
+ 
+
+.addform input:hover{
+    color: #e63946;
+    cursor: pointer;
+
+}            
+ .addform input:focus{
+     padding: 0.6rem;
+     outline-style: none;
+ }
+ 
   .addform h1::after{
       content:'';
       display: block;
@@ -553,17 +579,32 @@ margin-bottom: 2rem;
   
   .addform label{
       display: block;
+      font-weight: 500;
+
   }
   .addform input{
     display: block;
     width:100%;
-    margin-bottom: 1rem;
+    margin-bottom:1rem;
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+    border:1px solid rgba(0, 0, 0, 0.473);
 }
 .addform textarea{
+    border-radius: 1rem;
  margin-bottom:1.5rem;
- max-width: 98%;
- min-height:23% ;
+ max-width: 99%;
+ width: 99%;
+ max-height:13rem ;
+ outline-style: none;
+ /* height:20rem; */
+ padding: 1rem;
 }
+/* .addform textarea{
+    content: "";
+    display: block;
+    clear: both;
+} */
 
   .addform label::after{
       content: '*';
@@ -586,7 +627,6 @@ margin-bottom: 2rem;
       text-align: center;
       box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.552);
   }
-
 
 
 
@@ -681,8 +721,7 @@ margin-bottom: 2rem;
     width: 100%;
     text-align: center;
 }
-/*       .invite .contactd{ */
-/*       margin-top:0rem;} */
+     
  /* .about .invite .contactd{
     float: none;
     display: block;
@@ -694,7 +733,7 @@ margin-bottom: 2rem;
 
  /* ########################## contact page quaries ######################################## */
  .contactwith{
-  padding:4rem 3rem 3rem 3rem;
+   padding:4rem 3rem 3em rem;
  }
 
  .contactwith .helpboth{
@@ -734,18 +773,17 @@ margin-bottom: 2rem;
 }
 
 .shows .row1::after{
-   Content: "";
-   Display:block;
-   Clear:both;
-   }
-
- .shows .row2::after{
-   Content: "";
-   Display:block;
-   Clear:both;
-   }
-
-
+    Content: "";
+    Display:block;
+    Clear:both;
+    }
+ 
+  .shows .row2::after{
+    Content: "";
+    Display:block;
+    Clear:both;
+    }
+ 
 .features .feature{
      height: 100%;
     box-shadow: none;
@@ -807,6 +845,7 @@ margin-bottom: 2rem;
 
  /* ########################## contact page quaries ######################################## */
  .contactwith{
+     
 
  }
 
