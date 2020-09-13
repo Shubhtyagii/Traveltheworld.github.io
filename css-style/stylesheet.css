@@ -18,7 +18,7 @@ body{font-family: 'Montserrat', sans-serif;
 
 /*#############..html element styling..#################*/
 .container{
-    max-width: 1030px;
+    max-width: 1200px;
     width: 90%;
     margin: 0 auto;
 }
@@ -73,7 +73,7 @@ p,li{
            color: #555555;
        }
        .bg-dark{
-           background-color: #263238;
+           background-color:  #263238c4;
        }
       /* ######################### NAVBAR SECTION ######################## */
 
