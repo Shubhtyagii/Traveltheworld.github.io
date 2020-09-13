@@ -661,7 +661,19 @@ margin-bottom: 2rem;
    Clear:both;
    }
 
- .shows .row2, .row3, .row4::after{
+ .shows .row2:after{
+   Content: "";
+   Display:block;
+   Clear:both;
+   }
+ 
+  .shows .row3:after{
+   Content: "";
+   Display:block;
+   Clear:both;
+   }
+  
+  .shows .row4:after{
    Content: "";
    Display:block;
    Clear:both;
