@@ -200,16 +200,9 @@ h1,h2,h3{
       height: 350px;
   }
 
-  .row1{
+  .row1,.row2,.row3{
       
-      margin-bottom: 10em;
-  }
-     
-
-   
-
-  .row2{
-      
+      margin-bottom: 10rem;
   }
 
   /* .img-box{border:2px solid yellow ;}
@@ -217,16 +210,17 @@ h1,h2,h3{
 
 
 
- .row1 .img-box , .row2 .text-box{
+ .row1 .img-box , .row2 .text-box , .row3 .img-box, .row4 .text-box{
      float: left;
      width: 50%;
      height: 100%;
  }
- .row2 .img-box , .row1 .text-box{
+ .row2 .img-box , .row1 .text-box , .row3 .text-box , .row4 .img-box{
      float: right;
      width: 50%;
      height: 100%;
  }
+
 
  .row .img-box img{
      width:100%;
@@ -247,6 +241,9 @@ h1,h2,h3{
   
   .row a:hover{
       background: #f7b3b970;
+  }
+  .row a{
+      margin-top: 2rem;
   }
   
   .row{
