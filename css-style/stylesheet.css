@@ -332,7 +332,7 @@ h1,h2,h3{
     cursor: pointer;
 }
 
-/* ################################################################################################################  ABOUT PAGE STYLING START #################################### */
+/* ###########################################  ABOUT PAGE STYLING START #################################### */
 .about{
     padding: 4rem 3rem 3rem 3rem;
     
@@ -650,10 +650,10 @@ margin-bottom: 2rem;
       box-shadow: 1px 1px 20px 1px;
   }
 
-  .serv p,h1,h2{
-      text-align: left;
+   .service .serv p,h1,h2{
+/*       text-align: left; */
       padding-left: 1rem;
-      text-transform: capitalize;
+/*       text-transform: capitalize; */
      
   }
 
