@@ -626,8 +626,54 @@ margin-bottom: 2rem;
   }
 
 
+  /* ######################## services page work ##############################33 */
+  
+  *{
+      /* font-size: 1px; */
+  }
+   .server{
+       background-color: #f1f2f2;
+       border: 2px solid #f1f2f2 ;
+   }
 
-/* #################################################################################################################################### MEDIA QUERIES ############################################ */
+  .serv .hredit{
+     /* color: chartreuse; */
+     height: 0.4rem;
+     background-color:rgba(5, 173, 179, 0.911);
+  }
+ 
+  .serv{
+      /* border: 2px solid red; */
+      margin: 3rem;
+      padding: 3rem 8rem 2rem 2rem;
+      background-color: #f9f9f9;
+      box-shadow: 1px 1px 20px 1px;
+      
+      
+  }
+
+  .serv p,h1,h2{
+      text-align: left;
+      padding-left: 1rem;
+      text-transform: capitalize;
+     
+  }
+
+ .serv h2{
+    color: rgba(5, 173, 179, 0.911);
+    font-weight: 700;
+    /* text-transform: capitalize; */
+ }
+
+
+  .heading1{
+      /* font-size: 7rem; */
+      /* font-weight: 700; */
+  }
+
+
+
+/* ##################################################### MEDIA QUERIES ############################################ */
   @media (max-width:500px){
   html{
     font-size:43.75%;      
@@ -758,50 +804,7 @@ margin-bottom: 2rem;
  }
  }
 
-/* ######################## services page work ##############################33 */
-  
-  *{
-      /* font-size: 1px; */
-  }
-   .server{
-       background-color: #f1f2f2;
-       border: 2px solid #f1f2f2 ;
-   }
 
-  .serv .hredit{
-     /* color: chartreuse; */
-     height: 0.4rem;
-     background-color:rgba(5, 173, 179, 0.911);
-  }
- 
-  .serv{
-      /* border: 2px solid red; */
-      margin: 3rem;
-      padding: 3rem 8rem 2rem 2rem;
-      background-color: #f9f9f9;
-      box-shadow: 1px 1px 20px 1px;
-      
-      
-  }
-
-  .serv p,h1,h2{
-      text-align: left;
-      padding-left: 1rem;
-      text-transform: capitalize;
-     
-  }
-
- .serv h2{
-    color: rgba(5, 173, 179, 0.911);
-    font-weight: 700;
-    /* text-transform: capitalize; */
- }
-
-
-  .heading1{
-      /* font-size: 7rem; */
-      /* font-weight: 700; */
-  }
 
  /* ####################### queries for middle width 501-768 ################################# */
 
