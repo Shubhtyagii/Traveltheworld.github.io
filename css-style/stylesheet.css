@@ -644,12 +644,10 @@ margin-bottom: 2rem;
  
   .serv{
       /* border: 2px solid red; */
-      margin: 3rem;
+      margin: 5rem 3rem 5rem 3rem;  
       padding: 3rem 8rem 2rem 2rem;
       background-color: #f9f9f9;
       box-shadow: 1px 1px 20px 1px;
-      
-      
   }
 
   .serv p,h1,h2{
@@ -803,6 +801,12 @@ margin-bottom: 2rem;
      margin: 2rem 0rem 4rem 0rem;
  }
  }
+
+/* ###################### services page quaries ######################################### */
+.server .serv{
+  padding: 3rem 5rem 2rem 2rem; 
+}
+
 
 
 
